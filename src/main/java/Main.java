@@ -11,8 +11,12 @@ public class Main {
         circle3.setColor("Yellow");
         circle3.setRadius(9.0);
 
-        System.out.println("O raio é " + circulo1.getRadius() + "a cor é " + circulo1.getColor() + "a area é " + circulo1.getArea());
-        System.out.println("O raio é " + circulo2.getRadius() + "a cor é " + circulo2.getColor() + "a area é " + circulo2.getArea());
-        System.out.println("O raio é " + circle3.getRadius() + "a cor é " + circle3.getColor() + "a area é " + circle3.getArea());
+        System.out.println(circulo1.toString());
+        System.out.println(circulo2.toString());
+        System.out.println(circle3.toString());
+
+
+
     }
+
 }
