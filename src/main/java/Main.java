@@ -29,6 +29,18 @@ public class Main {
         System.out.println(rectangle2.toString());
         System.out.println(rectangle3.toString());
 
+
+        Employee employee1=new Employee(1,"Luis", "José",800);
+        //employee1.raiseSalary(10);
+        Employee employee2= new Employee(2,"Manuel","Coutinho",1500);
+        //employee2.raiseSalary(20);
+        Employee employee3=new Employee(3,"Vitor","Coutinho",2000);
+        //employee3.raiseSalary(30);
+
+        System.out.println(employee1.toString());
+        System.out.println(employee2.toString());
+        System.out.println(employee3.toString());
     }
+
 
 }
